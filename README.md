@@ -53,7 +53,7 @@
     <button class="btn" onclick="showMessage()">Click for a Surprise</button>
     <script>
         function showMessage() {
-            alert('Happy Birthday Nabila! You are an amazing friend who cares a lot. 🎈🎁');
+            document.body.innerHTML += '<h2 style="color:white;">You are an amazing friend who cares a lot! 🎈🎁</h2>';
         }
     </script>
 </body>
